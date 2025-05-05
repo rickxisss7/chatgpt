@@ -62,13 +62,15 @@ color: white;
 
 .conteudo2 {
 display: flex;
-gap: 12px ;
+justify-content: space-around;
 margin-left: -10px;
 transform: translateY(13px);
+flex-wrap: wrap;
+
 
 }
 
-.c2 {
+.conteudo2 .c2 {
 
 text-align: center;
 width: 30px;
@@ -89,11 +91,10 @@ box-shadow: 0 0px 1px 1px rgba(255, 255, 255, 0.11);
     background-color: #303030;
     transform: translateY(456px);
     padding: 25px;
-    width: 408px;
+    width: 80%;
     border-radius: 28px;
     margin: 0 auto;
     box-shadow: 0 0px 1px 1px rgba(255, 255, 255, 0.158);
-    
 }
 
 .texto input {
@@ -110,16 +111,15 @@ color: white;
     font-family: "Roboto", sans-serif;
     background-color: #303030;
     font-weight: 500; 
-    width: 436px;
+    width: 100%;
 }
 
 #c2x {
-transform: translateX(94px);
-
+transform: translateX(20px);
 }
 
 #c3x {
-    transform: translateX(90px);
-    background-color: rgb(255, 255, 255);
+
+    transform: translateX(20px);
 }
 
